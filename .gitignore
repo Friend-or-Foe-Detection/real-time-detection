@@ -1,0 +1,22 @@
+# Ignore heavy models
+models/
+*.pt
+
+# Ignore datasets and media
+data/
+media/
+*.mp4
+*.zip
+*.heic
+*.jpg
+*.png
+*.pdf
+
+# Python caches
+__pycache__/
+*.pyc
+.mypy_cache/
+
+# Ignore staging/scratch
+staging/
+scratch/
